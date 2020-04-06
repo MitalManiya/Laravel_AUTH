@@ -70,3 +70,56 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+### Refere Following Steps of following link
+https://codingdriver.com/laravel-authentication-functionality.html#Step_2_:_Check_Your_Model_Migration_File
+
+##################################### Start Mailtrap INFO ##########
+#### https://mailtrap.io/ info for sending mail This mail is testing mail
+email : seweroh581@gotkmail.com
+pwd : seweroh581@gotkmail.com
+
+#####
+Credentials   Reset SMTP/POP3
+#####SMTP
+Host:	smtp.mailtrap.io
+
+Port:	25 or 465 or 587 or 2525
+
+Username:	532e0a4e0b5737
+
+Password:	f09a98b0d2ff2d
+
+Auth:	PLAIN, LOGIN and CRAM-MD5
+
+TLS:	Optional (STARTTLS on all ports)
+
+######POP3
+Host:	pop3.mailtrap.io
+
+Port:	1100 or 9950
+
+Username:	532e0a4e0b5737
+
+Password:	f09a98b0d2ff2d
+
+Auth:	USER/PASS, PLAIN, LOGIN, APOP and CRAM-MD5
+
+TLS:	Optional (STARTTLS on all ports)
+
+######Integrations
+
+In config/environments/*.rb specify ActionMailer defaults for your development or staging servers:
+
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.smtp_settings = {
+  :user_name => '532e0a4e0b5737',
+  :password => 'f09a98b0d2ff2d',
+  :address => 'smtp.mailtrap.io',
+  :domain => 'smtp.mailtrap.io',
+  :port => '2525',
+  :authentication => :cram_md5
+}
+
+##################################### End Mailtrap INFO ##########
