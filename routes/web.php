@@ -21,7 +21,7 @@ Auth::routes();
 /////// Jyare apde url ma public pachi home "http://localhost/laravelauth/public/home" add kriye tyare login page open thai jai jo login na hoi to
 /// /// Ane "http://localhost/laravelauth/public/" a page par Laravel nu welcome page display thai
 
-//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 
 
 ////// A line ma me middleware add kryu
