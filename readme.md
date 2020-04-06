@@ -122,4 +122,25 @@ config.action_mailer.smtp_settings = {
   :authentication => :cram_md5
 }
 
+#######################################################################
+=======
+Reset password message is show  => http://prntscr.com/rttie5
+Reset Password mail arrived in mailtrap account => http://prntscr.com/rttpkv
+
+I have open this reset password link in our localhost project url
+EX :
+  Reset Password Link 
+  http://localhost/password/reset/80315e3c8bf98e9a584a7dbdcb252b96754b6b4da3cb5f2e544fbaa48ed40a26?email=jeyek60321%40itiomail.com
+
+  ---------------
+  I have copy this link from /password and open url in my project directory
+  http://localhost/laravelauth/public/password/reset/80315e3c8bf98e9a584a7dbdcb252b96754b6b4da3cb5f2e544fbaa48ed40a26?email=jeyek60321%40itiomail.com
+
+  So,open the Reset Password Page => http://prntscr.com/rttr5d
+  
+  Password reset success => http://prntscr.com/rttrfp
+
 ##################################### End Mailtrap INFO ##########
+
+### DONE Laravel AUTH 
+https://drive.google.com/file/d/1wmocQpKt2tGGJTHeN3R8lI_JZ0ddCsO3/view
